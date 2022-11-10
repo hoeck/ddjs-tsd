@@ -6,9 +6,13 @@
     "dev": "slidev --open",
     "export": "slidev export"
   },
+  "tsd": {
+    "directory": "test-d"
+  },
   "dependencies": {
     "@slidev/cli": "^0.36.11",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "tsd": "^0.24.1"
   }
 }
