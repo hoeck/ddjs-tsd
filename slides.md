@@ -100,7 +100,7 @@ function addOne(a: number | null): number {
 }
 
 test('adds one', () => {
-    const expectType: (a: number) => number = add
+    const expectType: (a: number) => number = addOne
 
     expect(addOne(1)).toEqual(2)
 })
@@ -145,7 +145,7 @@ function addOne(a: number | null): number {
 }
 
 test('adds one', () => {
-    const expectType: (a: number) => number = add
+    const expectType: (a: number) => number = addOne
 
     expect(addOne(1)).toEqual(2)
 })
@@ -166,8 +166,8 @@ function addOne(a: number | null): number {
 }
 
 test('adds one', () => {
-    const expectType0: (a: number) => number = add
-    const expectType1: typeof add = (a: number) => number
+    const expectType0: (a: number) => number = addOne
+    const expectType1: typeof addOne = (a: number) => number
 
     expect(addOne(1)).toEqual(2)
 })
@@ -306,7 +306,7 @@ interface Todo {
     description :string
 }
 
-declare const partialPrefix: PartialPrefix<Todo, 'initial | final'>
+declare const partialPrefix: PartialPrefix<Todo, 'initial' | 'final'>
 
 expectType<{
   initial_title?: string
