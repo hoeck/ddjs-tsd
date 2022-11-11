@@ -1,11 +1,15 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Short Motivation for Testing Types
 
-To start the slide show:
+And how [TSD](https://github.com/SamVerschueren/tsd) helps with that. Held at DresdenJS November 22 meetup.
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+Slides made with [Slidev](https://github.com/slidevjs/slidev).
 
-Edit the [slides.md](./slides.md) to see the changes.
+[Slides](slides-export.pdf)
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+[Slide Notes](slides-export-notes.pdf)
+
+[![Komm in die Gruppe - Audi Etron S](gruppe.png)](https://www.meetup.com/DresdenJS-io-JavaScript-User-Group)
+
+[MeetUp](https://www.meetup.com/DresdenJS-io-JavaScript-User-Group/)
+
+[Slack](https://slackin-dresdenjs.herokuapp.com)
